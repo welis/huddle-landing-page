@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@media screen and (max-width: 768px) {
+
+    header .main-header{
+        background: url(../images/bg-hero-mobile.svg) no-repeat;
+        background-size: cover;
+    }
+
+    .title{
+        padding: 20px;
+    }
+    .title img{
+        width: 150px;
+        height: 30px;
+    }
+    .main-header button{
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+
+    .content-text{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .content-text h1{
+        font-size: 30px;
+        margin: 10px 0 0 0;
+    }
+
+    .content-text p{
+        font-size: 16px;
+        margin: 20px 10px 0 10px;
+    }
+
+    .content-text button{
+        width: 70%;
+        height: auto;
+        padding: 15px;
+        margin: 30px 0 50px 0;
+    }
+
+    .content-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-image img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .content-section{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin: 100px 50px;
+        height: 100%;
+    }
+
+    .content-img-section{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    .content-text-section{
+        width: 90%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .content-text-section p{
+        font-size: 20px;
+        margin-right: 0px;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-footer{
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .modal{
+        width: 80%;
+        left: calc(50% - 40%);
+        margin-bottom: 10px;
+    }
+
+    .modal button{
+        width: 100%;
+        font-size: 90%;
+    }
+
+}

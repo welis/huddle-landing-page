@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: hsl(193, 100%, 96%);
+    width: 100%;
+    height: 100vh;
+}
+header .main-header{
+    background: url(../images/bg-hero-desktop.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.title img{
+    width: 220px;
+    height: 40px;
+}
+
+.main-header button{
+    background-color: white;
+    width: 220px;
+    height: 60px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-header button:hover{
+    transition: 0.3s;
+    background-color: hsl(0, 0%, 97%);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    width: 100%;
+}
+
+.content-text{
+    width: 45%;
+}
+
+.content-text h1{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-right: 25%;
+}
+
+.content-text p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 20%;
+}
+
+.content-text button{
+    width: 300px;
+    height: 60px;
+    margin-top: 40px;
+    margin-right: 160px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    cursor: pointer;
+}
+
+.content-text button:hover{
+    transition: 0.3s;
+    background-color: hsl(322, 100%, 50%);
+}
+.content-img{
+    width: 55%;
+    text-align: center;
+    margin: 0 0 0 10px;
+}
+
+.content-img img{
+    width: 90%;
+    height: auto;
+}
+
+/* body */
+.content-section{
+    height: 100%;
+    display: flex;
+    border: 1px solid hsl(0, 0%, 90%);
+    margin: 80px 50px;
+    padding: 60px;
+}
+
+.content-text-section{
+    width: 50%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.content-text-section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content-text-section p{
+    color: hsl(0, 0%, 75%);
+    font-size: 22px;
+    margin-right: 220px;
+}
+
+.content-img-section{
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+}
+
+.content-img-section img{
+    width: 65%;
+    max-height: 100%;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-footer{
+    width: 30%;
+    height: 100%;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.content-footer img{
+    width: 100%;
+    height: auto;
+}
+
+.content-footer ul{
+    list-style: none;
+}
+
+.content-footer ul li{
+    margin: 30px auto;
+}
+
+.content-footer ul li i{
+    margin-right: 10px;
+}
+
+.midle{
+    display: flex;
+    justify-content: space-around;
+}
+.social i{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 16px;
+    margin-bottom: 80px;
+}
+.social i:hover{
+    transition: 0.3s;
+    background-color: hsl(0, 0%, 97%);
+    color: hsl(192, 100%, 9%);
+    cursor: pointer;
+}
+
+.modal{
+    border: 1px solid hsl(0, 0%, 90%);
+    border-radius: 20px;
+    background-color: white;
+    width: 60%;
+    position: relative;
+    left: calc(50% - 30%);
+    top: 50px;
+    padding: 40px;
+    text-align: center;
+}
+
+.modal h1{
+    margin-top: 3%;
+    font-size: 36px;
+}
+
+.modal button{
+    width: 350px;
+    height: 65px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding: 18px;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+
+.modal button:hover{
+    transition: 0.3s;
+    background-color: hsl(322, 100%, 50%);
+}
+
+.attribution{
+    font-size: 12px;
+    color: hsl(0, 0%, 75%);
+    margin-top: 5%;
+}
+
+
+
